@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>왕좌는 있었지만 — 경복궁에서 시작한 단종 이야기</title><link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&amp;family=Noto+Serif+KR:wght@300;400;600&amp;family=Nanum+Gothic:wght@400;700&amp;display=swap" rel="stylesheet"/><style>
+:root{--ink:#1a1410;--sepia:#8B6914;--moss:#5a6b4a;--stone:#9b9080;--accent:#c4611a;--pale:#faf7f2;--parchment:#f5f0e8;--gold:#c4a040;--crimson:#8a1a1a;color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--pale);color:var(--ink);font-family:'Noto Serif KR','Batang','바탕',serif;font-weight:300;font-size:16px;line-height:2;word-break:keep-all;overflow-wrap:break-word}
+.masthead{position:relative;background:var(--ink);color:var(--parchment);padding:3.5rem 2rem 3rem;text-align:center}.masthead:before{content:'';position:absolute;inset:0;pointer-events:none;opacity:.012;background:repeating-linear-gradient(0deg,#fff 0,#fff 1px,transparent 1px,transparent 3px)}
+.masthead-label,.masthead-meta,.section-label,.lead-tag,figcaption,.hero-caption,footer,.info-box h3,.info-box dt{font-family:'Nanum Gothic','Malgun Gothic',sans-serif}
+.masthead-label{font-size:.68rem;letter-spacing:.4em;color:#b6a998;text-transform:uppercase;margin-bottom:1.5rem}
+h1{max-width:1000px;margin:0 auto 1.4rem;font-family:'Nanum Myeongjo','Batang',serif;font-weight:800;font-size:clamp(2.2rem,5vw,4rem);line-height:1.2;word-break:keep-all;text-wrap:balance}h1 em{color:var(--gold);font-style:normal}
+.masthead .sub{color:var(--stone);font-size:1.05rem;font-style:italic;margin:0 auto 1.8rem;max-width:800px}.masthead-meta{border-top:1px solid #2e2820;padding-top:1.3rem;display:flex;justify-content:center;flex-wrap:wrap;gap:.5rem 2rem;font-size:.7rem;letter-spacing:.15em;color:#b6a998}
+.hero{position:relative;margin:0;background:var(--ink);overflow:hidden}.hero img{display:block;width:100%;height:clamp(260px,48vw,600px);max-height:600px;object-fit:cover;object-position:center 35%;filter:sepia(14%) contrast(1.06) brightness(.93)}.hero-caption{position:absolute;bottom:0;left:0;right:0;padding:4rem max(2rem,calc((100vw - 736px)/2)) 1.8rem;background:linear-gradient(transparent,rgba(0,0,0,.78));color:#ddd8ce;font-size:.75rem;letter-spacing:.1em;line-height:1.8;border:0;margin:0}
+.container{max-width:800px;margin:auto;padding:0 2rem}.lead-block{padding:4.5rem 0 3.5rem;border-bottom:1px solid #d8d0c4}.lead-tag{display:block;color:var(--accent);font-size:.65rem;letter-spacing:.45em;text-transform:uppercase;margin-bottom:1.4rem}.lead-block p{font-family:'Nanum Myeongjo','Batang',serif;font-size:clamp(1.15rem,2.4vw,1.42rem);font-weight:700;line-height:1.95;color:#2a201a}
+.section{padding:3.5rem 0;border-bottom:1px solid #e4ddd5}.section-label{display:flex;align-items:center;gap:1rem;font-size:.62rem;letter-spacing:.55em;color:#776d60;text-transform:uppercase;margin-bottom:2rem}.section-label:after{content:'';height:1px;background:#ddd5c8;flex:1}h2{font-family:'Nanum Myeongjo','Batang',serif;font-weight:800;font-size:clamp(1.35rem,3vw,1.8rem);line-height:1.4;margin:0 0 1.6rem;color:var(--ink)}p{margin:0 0 1.5rem;line-height:2;color:#2e2620}p:last-child{margin-bottom:0}.drop-cap:first-letter{float:left;font-family:'Nanum Myeongjo',serif;font-size:3.7rem;line-height:1;padding:.1rem .6rem 0 0;color:var(--sepia);font-weight:800}
+.photo-single{margin:2.8rem 0}.photo-single img{display:block;width:100%;height:auto;filter:sepia(10%) contrast(1.04);image-orientation:from-image}figcaption{font-size:.7rem;color:#766b5c;letter-spacing:.05em;line-height:1.85;border-top:1px solid #d8d0c4;padding-top:.75rem;margin-top:.7rem}
+.pull-quote{position:relative;margin:3rem 0;background:#f0ebe0;border-left:4px solid var(--sepia);padding:2rem 2.8rem;font-family:'Nanum Myeongjo','Batang',serif;font-size:1.18rem;font-weight:700;line-height:1.9;color:#3a2e20}.pull-quote:before{content:'“';position:absolute;left:.65rem;top:-.1rem;font-size:4rem;color:var(--sepia);opacity:.2}.pull-quote p{font:inherit;color:inherit}.pull-quote .src{display:block;margin-top:1rem;font-family:'Nanum Gothic',sans-serif;font-size:.7rem;font-weight:400;color:#766b5c}
+.table-wrap{overflow-x:auto;margin:2.5rem 0}table{width:100%;border-collapse:collapse;font-size:.88rem;line-height:1.85}th{background:var(--sepia);color:white;font-family:'Nanum Gothic',sans-serif;font-size:.75rem;text-align:left;font-weight:700}th,td{padding:.8rem 1rem;border:1px solid #d0c8bc;vertical-align:top}td{color:#3a3028}tr:nth-child(odd) td{background:#faf5ec}td:first-child{font-weight:600;min-width:74px}
+.timeline{margin:2.5rem 0;padding:1.6rem 1.7rem;background:#f0ebe0;border:1px solid #d4ccbc}.timeline .row{display:grid;grid-template-columns:76px 1fr;gap:1rem;padding:.8rem 0;border-bottom:1px solid #d8d0c4}.timeline .row:last-child{border:0}.timeline .y{font-family:'Nanum Gothic',sans-serif;font-size:.8rem;font-weight:700;color:var(--sepia)}.timeline .d{font-size:.9rem}
+.info-box{background:#eee8dc;border:1px solid #d4ccbc;padding:2rem 2.5rem;margin:0}.info-box h3{font-size:.68rem;color:var(--sepia);letter-spacing:.42em;margin:0 0 1.5rem}.info-grid{display:grid;grid-template-columns:76px 1fr;gap:.8rem 1rem;margin:0;font-size:.88rem;line-height:1.9}.info-grid dt{font-weight:700;color:var(--sepia);font-size:.78rem}.info-grid dd{margin:0;color:#3a3028}
+footer{background:var(--ink);color:#b6a998;padding:2.8rem 2rem;margin-top:4rem;text-align:center;font-size:.68rem;letter-spacing:.22em;line-height:2}footer p{color:inherit;margin-bottom:.6rem}footer strong{color:var(--gold)}footer a{color:inherit;text-decoration:none}footer a:hover{text-decoration:underline}footer .route{margin-top:1.2rem;line-height:2.2}
+@media(max-width:600px){.container{padding:0 1.4rem}.masthead{padding:3rem 1.4rem 2.5rem}.masthead-meta{gap:.5rem 1rem}.pull-quote{padding:1.5rem 1.8rem}.info-box{padding:1.5rem}.info-grid{grid-template-columns:60px 1fr;gap:.7rem}.hero-caption{padding:3rem 1.4rem 1.2rem;font-size:.68rem}.timeline{padding:1rem}.timeline .row{grid-template-columns:58px 1fr;gap:.7rem}th,td{padding:.6rem}.section{padding:3rem 0}.lead-block{padding:3.5rem 0 3rem}}
+@media print{.hero img{height:300px}.masthead,footer{print-color-adjust:exact}.section{break-inside:auto}figure,.pull-quote,.info-box{break-inside:avoid}}
+
+.lead-block,.closing{font-family:'Nanum Myeongjo','Batang',serif;font-size:1.12rem;line-height:2}.lead-block{font-weight:700}.closing .section-label{margin-bottom:2rem}.quote{position:relative;margin:3rem 0;background:#f0ebe0;border-left:4px solid var(--sepia);padding:2rem 2.8rem;font-family:'Nanum Myeongjo',serif;font-size:1.18rem;font-weight:700;line-height:1.9;color:#3a2e20}.note{margin:2.5rem 0;padding:1.8rem 2.2rem;border:2px solid var(--gold);background:#f5f0e0;font-size:.95rem;line-height:1.9;color:#3a3028}.series{margin:2.5rem 0;background:#eee8dc;border:1px solid #d4ccbc;padding:2rem 2.5rem;font-size:.88rem}.series h3,.series>strong{display:block;font-family:'Nanum Gothic',sans-serif;font-size:.75rem;letter-spacing:.15em;color:var(--sepia);margin:0 0 1.2rem}.series ol{list-style:none;padding:0;margin:0}.series li{padding:.65rem 0;border-bottom:1px solid #d4ccbc;line-height:1.9}.series li:last-child{border:0}.series .n{margin-right:.6rem}.series .here{font-weight:600;color:var(--crimson)}.series .note{display:inline;margin:0 0 0 .6rem;border:0;padding:0;background:none;font-family:'Nanum Gothic',sans-serif;font-size:.65rem;color:#766b5c}.sources{font-size:.88rem;line-height:1.9}.sources li{margin-bottom:1rem}.sources h3{font-family:'Nanum Gothic',sans-serif;font-size:.75rem;color:var(--sepia);letter-spacing:.2em}.info-box{margin:2.5rem 0}.series-links{line-height:2.5;margin-top:1rem}footer .series-links a{color:#b6a998;margin:0 .5rem}footer .series-links strong{margin:0 .5rem}a{color:var(--sepia);text-underline-offset:3px}.source-section{border-bottom:1px solid #e4ddd5;padding:2.8rem 0}.portrait img{height:auto;max-height:none;object-fit:contain}@media(max-width:600px){.quote{padding:1.5rem 1.8rem}.note,.series{padding:1.5rem}.series .note{padding:0}}
+</style></head><body><header class="masthead"><div class="masthead-label">조선 왕조 이야기 · 단종 편</div><h1><em>왕좌는 있었지만</em></h1>
+<p class="sub">경복궁 근정전과 경회루 — 열두 살 왕에게 왕권은 있었는가</p>
+<p class="masthead-meta">2026. 10. 답사 · 서울 경복궁<br/>사진 · 답사 현장 직접 촬영</p></header><figure class="hero"><img alt="근정전. 단종의 이야기는 왕위를 빼앗긴 순간이 아니라, 그가 왕좌에 앉았던 순간부터 시작한다." fetchpriority="high" src="images/ef9397669f31013e6a0823e5.jpg"/><figcaption class="hero-caption">근정전. 단종의 이야기는 왕위를 빼앗긴 순간이 아니라, 그가 왕좌에 앉았던 순간부터 시작한다.</figcaption></figure><main class="container">
+
+
+<section class="lead-block"><span class="lead-tag">Prologue · 문종의 죽음 뒤</span>
+문종 편의 마지막은 현릉이었다. 병약했던 왕이 세상을 떠나자 왕위는 아들에게 넘어갔다. 세종도, 소헌왕후도, 어머니 현덕왕후도, 이제 아버지 문종도 없었다. 1452년, 열두 살의 이홍위가 조선의 여섯 번째 왕이 되었다.
+<br/><br/>이번 단종 답사는 그래서 영월이 아니라 경복궁에서 시작한다. 비극의 결말을 먼저 보는 대신, 한 소년이 분명 왕이었던 자리에서 출발해 보려 한다.</section>
+<section class="section" id="scene-1"><div class="section-label">SCENE 01</div><h2 class="">왕좌에 앉았다고 왕인가</h2>
+<p class="drop-cap">근정전 앞에 서면 먼저 건물의 크기가 들어온다. 넓은 조정과 품계석, 높은 월대, 그 위의 정전. 왕은 이 모든 질서의 중심에 서는 존재였다.</p>
+<p>그러나 1452년 이 질서의 중심에 앉게 된 사람은 열두 살의 단종이었다. 그가 왕위를 원해서 얻은 것은 아니었다. 세자였고, 아버지 문종이 세상을 떠났고, 그래서 왕위를 이어받아야 했다. 준비할 시간도, 스스로 만든 정치적 기반도 없었다. 세종도 소헌왕후도, 어머니 현덕왕후도, 이제 아버지 문종도 없었다. 왕위는 물려받았다기보다 갑자기 떠맡겨진 자리에 가까웠다.</p>
+<blockquote class="pull-quote">왕이 되기로 선택한 것이 아니었다.<br/>세자였기 때문에 왕이 되어야 했다.</blockquote>
+<p>근정전에서 단종을 생각하면 ‘어린 왕’이라는 말이 단순히 나이를 뜻하지 않게 된다. 왕은 국가의 정점이었지만 어린 단종에게는 자신을 둘러싼 대신과 종친의 힘을 조정할 기반이 없었다. 더구나 대신들이 인사 후보에 황색 표시를 해 올리던 이른바 ‘황표정사’는 어린 왕 아래에서 실제 정치가 어떻게 움직였는지를 보여 주는 상징적인 장면이다. 단종은 계유정난 뒤에야 껍데기 왕이 된 것이 아니라, 즉위할 때부터 왕의 이름에 비해 왕의 힘이 약한 상태에서 출발했다.</p>
+</section>
+<figure class="photo-single"><img alt="사정전. ‘생각하며 다스린다’는 이름을 가진 편전이다. 왕의 권위보다 실제 정치가 이루어지는 일상을 떠올리게 한다." loading="lazy" src="images/7dc1cccf5ff90d8b0567f879.webp"/><figcaption>사정전. ‘생각하며 다스린다’는 이름을 가진 편전이다. 왕의 권위보다 실제 정치가 이루어지는 일상을 떠올리게 한다.</figcaption></figure>
+<section class="section" id="scene-2"><div class="section-label">SCENE 02</div><h2 class="">사정전 — 왕이 정치를 해야 하는 자리</h2>
+<p>근정전이 왕의 권위를 보여 주는 공간이라면, 사정전은 왕이 신하들과 정사를 논하는 편전이다. 이곳에서는 질문이 조금 달라진다. ‘누가 왕인가’가 아니라 ‘누가 실제로 정치를 움직였는가’이다.</p>
+<p>1453년 계유정난으로 김종서와 황보인 등 단종을 보좌하면서 동시에 어린 왕 아래에서 강한 권력을 행사하던 대신 세력이 제거되었다. 수양대군은 정권과 병권을 장악했다. 그러나 여기서 단종이 처음 무력해졌다고 보면 이야기가 너무 단순해진다. 계유정난은 힘 있는 왕을 껍데기로 만든 사건이라기보다, 이미 취약했던 왕에게서 마지막 보호막마저 걷어 낸 사건에 가까웠다.</p>
+<figure class="photo-single"><img alt="사정전 내부의 어좌. 비어 있는 어좌를 바라보면 ‘왕의 자리’와 ‘왕의 힘’이 반드시 같은 것은 아니었음을 생각하게 된다." loading="lazy" src="images/833c219eaa6044a3d27852be.webp"/><figcaption>사정전 내부의 어좌. 비어 있는 어좌를 바라보면 ‘왕의 자리’와 ‘왕의 힘’이 반드시 같은 것은 아니었음을 생각하게 된다.</figcaption></figure>
+<blockquote class="pull-quote">왕의 이름과 왕의 힘은<br/>계유정난 이전부터 이미 같지 않았다.</blockquote>
+<p>이 지점이 단종 이야기에서 중요하다. 1455년의 양위만 보면 어느 날 갑자기 왕위를 빼앗긴 것처럼 보인다. 그러나 단종에게는 처음부터 ‘왕이지만 스스로 정치를 움직이기 어려운’ 문제가 있었다. 김종서·황보인의 권력이 강하던 시기에도, 수양대군이 권력을 장악한 뒤에도 왕은 늘 다른 강한 세력 사이에 놓여 있었다. 1455년의 양위는 그 긴 무력함이 왕좌의 상실로 완성된 순간이었다.</p>
+</section>
+<figure class="photo-single"><img alt="경회루. 왕실의 연회와 국가적 의례가 펼쳐지던 화려한 공간. 단종의 짧은 재위와 대비되는 평온한 풍경이다." loading="lazy" src="images/3903b8a2df4523bd05a9f805.jpg"/><figcaption>경회루. 왕실의 연회와 국가적 의례가 펼쳐지던 화려한 공간. 단종의 짧은 재위와 대비되는 평온한 풍경이다.</figcaption></figure>
+<section class="section" id="scene-3"><div class="section-label">SCENE 03</div><h2 class="">경회루 — 화려한 궁궐, 짧았던 왕의 시간</h2>
+<p>경회루의 풍경은 근정전과 또 다르다. 물 위에 떠 있는 듯한 누각과 인왕산, 연못이 한 장면을 만든다. 왕실의 연회와 외교 행사가 열리던 공간답게 지금도 경복궁에서 가장 화려한 풍경 가운데 하나다.</p>
+<p>그러나 단종의 시선으로 보면 이 평온한 풍경 뒤에 불안한 시간이 겹친다. 1452년 즉위, 1453년 계유정난, 1455년 양위. 왕으로 있었던 기간은 3년 남짓이었다. 궁궐은 그대로였지만 그 안에서 단종이 차지할 수 있는 정치적 공간은 점점 좁아졌다.</p>
+<div class="note"><strong>답사 중 바로잡은 점.</strong> 처음 답사 계획에서는 1456년 단종 복위 거사를 경회루의 명나라 사신 연회와 연결하려 했다. 사료를 다시 확인하면 거사가 예정되었던 명 사신 초대연은 <strong>경복궁 경회루가 아니라 창덕궁</strong>이었다. 따라서 이 글에서는 경회루를 복위운동의 현장으로 설명하지 않는다. 복위운동은 다음 사육신묘 답사에서 이어 간다.</div>
+</section>
+<figure class="photo-single"><img alt="경회루와 연못. 궁궐은 남았지만 왕은 떠났다. 이제 이야기는 왕좌 밖으로 이동한다." loading="lazy" src="images/66385e99fd12bda0537672c5.jpg"/><figcaption>경회루와 연못. 궁궐은 남았지만 왕은 떠났다. 이제 이야기는 왕좌 밖으로 이동한다.</figcaption></figure>
+<section class="section" id="scene-4"><div class="section-label">SCENE 04</div><h2 class="">궁궐 밖으로 밀려나는 왕</h2>
+<p>1455년 단종은 수양대군에게 왕위를 넘겼다. 세조는 근정전에서 즉위했고, 단종은 상왕이 되어 수강궁으로 옮겨 갔다. 왕좌를 내놓았다고 해서 이야기가 끝난 것은 아니었다. 오히려 이때부터 단종을 둘러싼 사람들의 선택이 선명해진다.</p>
+<p>어떤 사람들은 새 왕에게 협력했고, 어떤 사람들은 침묵했다. 그리고 어떤 사람들은 이미 왕위를 잃은 단종을 다시 왕으로 세우려 했다.</p>
+<blockquote class="pull-quote">왕은 궁궐을 떠났지만,<br/>‘누가 정당한 왕인가’라는 문제는 끝나지 않았다.</blockquote>
+<p>그래서 다음 답사지는 사육신묘다. 다만 그곳에서는 단순히 ‘충신들의 희생’을 기리는 데서 한 걸음 더 들어가 보고 싶다. 어린 단종이 실제 왕권을 행사하지 못하던 때에는 목숨을 걸지 않았던 사람들이, 왕위를 잃은 뒤에는 왜 목숨까지 던졌을까. 그들이 지키려 한 것은 한 소년 이홍위였을까, 아니면 적통의 왕이라는 질서였을까.</p>
+</section>
+<section class="section" id="scene-5"><div class="section-label">SCENE 05</div><h2 class="">첫 번째 인사이트 — 적통</h2>
+<p>단종편을 따라가며 처음 선명해진 것은 ‘적통’의 힘이다. 단종은 준비가 되었기 때문에 왕이 된 것이 아니다. 세종의 적장자 문종의 아들이자 세자였기 때문에 왕이 되어야 했다. 개인의 준비보다 왕통의 질서가 먼저였다.</p>
+<blockquote class="pull-quote">조선에서 왕은 개인이기 전에<br/>왕통의 한 자리였다.</blockquote>
+<p>이 적통의 논리는 뒤에서 다시 나타난다. 사육신이 목숨을 걸고 복위를 도모하고, 241년 뒤 조선이 노산군을 다시 단종대왕으로 복위시키는 과정까지, 단종의 이야기는 결국 ‘누가 정당한 왕인가’라는 질문을 놓지 않는다.</p></section><section class="section closing"><span class="section-label">Closing · 다음 이야기로</span>
+근정전에서 시작한 질문은 아직 끝나지 않았다. 왕좌에 앉아 있으면 왕인가. 왕좌에서 내려오면 더 이상 왕이 아닌가.
+<br/><br/>1456년 성삼문·박팽년 등은 이미 상왕이 된 단종을 다시 왕위에 올리려 했다. 그 선택 때문에 그들은 당대에는 역적이 되었고, 훗날에는 충신이 되었다.
+<br/><br/><strong>경복궁에서 ‘왕은 누구인가’를 물었다면, 사육신묘에서는 한 걸음 더 나아가 묻게 된다. <strong>그들은 한 사람을 지키려 했던 것일까, 아니면 정통성을 지키려 했던 것일까.</strong></strong></section>
+<section class="series"><h3>조선 왕조 이야기 · 단종 편 — 답사의 길</h3><ol>
+<li class="here"><span class="n">①</span><span>왕좌는 있었지만 — 경복궁 근정전</span></li>
+<li class="here"><span class="n">②</span><span>왕의 힘이 사라지다 — 사정전·경회루</span></li>
+<li><span class="n">③</span><span>왕을 되찾으려 한 사람들 — 사육신묘</span></li>
+<li><span class="n">④</span><span>혼자 남은 왕비 — 정업원터·동망봉</span></li>
+<li><span class="n">⑤</span><span>왕비가 돌아온 자리 — 사릉</span></li><li><span class="n">⑥</span><span>유배와 죽음의 땅 — 청령포·관풍헌</span></li><li><span class="n">⑦</span><span>죽은 왕의 무덤 — 장릉</span></li><li><span class="n">⑧</span><span>241년 만의 귀환 — 종묘 영녕전</span></li>
+</ol></section>
+<section class="source-section sources"><h2 class="scene-title">참고 자료</h2>
+<p>한국민족문화대백과사전 「단종」 — 즉위, 계유정난 이후의 정국, 양위와 상왕 시기.</p>
+<p>조선왕조실록 「단종실록」 해제 — 단종 재위 기간과 세조 즉위, 상왕 이거.</p>
+<p>한국민족문화대백과사전 「단종복위운동」 — 1456년 명 사신 초대연의 장소가 창덕궁이었음을 확인.</p>
+</section>
+</main><footer><p>조선 왕조 이야기 · 단종 편</p><p>경복궁 · 답사 기록</p><div class="series-links"><strong>경복궁</strong><a href="단종_답사기_03_04_사육신묘_정업원터.html">사육신묘·정업원터</a><a href="단종_답사기_05_사릉.html">사릉</a></div></footer></body></html>
